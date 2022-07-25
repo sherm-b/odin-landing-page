@@ -85,8 +85,8 @@ button {
 /* info section styling*/
 
 .info {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-content{
@@ -125,3 +125,20 @@ flex-direction: column;
     margin-bottom: 5px;
 }
 
+/*testimonial styling*/
+
+.testimonial {
+    background-color: #e5e7eb;
+    
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1f2937;
+}
+
+.attribution {
+    font-weight: 800;
+}
