@@ -92,7 +92,8 @@ flex-direction: column;
 .info-content{
     display: flex;
     justify-content: center;
-    gap: 40px
+    gap: 40px;
+    flex-flow: row wrap;
 
 }
 
@@ -102,6 +103,7 @@ flex-direction: column;
     color: #1f2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 32px 0;
 }
 
