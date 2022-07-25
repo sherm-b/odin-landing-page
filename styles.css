@@ -10,14 +10,13 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #1f2937;
-    
 }
 
 .logo {
     padding: 0 1vw;
     font-size: 24px;
     font-weight: 800;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 .header-links {
@@ -31,4 +30,39 @@ body {
     color: #e5e7eb;
     size: 18px;
     font-weight: 400;
+}
+
+/*hero section styling*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.hero-text {
+    font-size: 28px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  border-style: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.image-placeholder{
+    background-color: #6d747d;
+    color: #ffffff;
 }
