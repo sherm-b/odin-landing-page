@@ -39,17 +39,20 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
+    height: 400px;
 }
 
 .hero-text {
     font-size: 28px;
     font-weight: 800;
     color: #f9faf8;
+    width: 200px;
 }
 
 .hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 5px 0;
 }
 
 button {
@@ -65,4 +68,16 @@ button {
 .image-placeholder{
     background-color: #6d747d;
     color: #ffffff;
+    width: 450px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding-right: 50px;
 }
