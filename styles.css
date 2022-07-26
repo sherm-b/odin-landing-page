@@ -151,5 +151,28 @@ button {
 
 .attribution {
     font-weight: 800;
+    font-size: 18px;
     align-self: flex-end;
+}
+
+/* call to action styling*/
+
+
+.cta-box {
+    background-color: #3882f6;
+}
+
+.cta-header {
+    font-weight: 800;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.cta-subtext {
+    color: #e5e7eb;
+}
+
+.cta-button button {
+    border-style: solid;
+    border-color: #e5e7eb;
 }
