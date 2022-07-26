@@ -157,9 +157,22 @@ button {
 
 /* call to action styling*/
 
+.cta {
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
 
 .cta-box {
     background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 0 2vw;
 }
 
 .cta-header {
